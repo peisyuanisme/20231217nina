@@ -1,0 +1,78 @@
+.slogan {
+    display: flex;
+    height: 60px;
+    margin: 20px auto;
+    align-items: center;
+    justify-content: center;
+    background: rgb(109, 138, 235);
+    color: #fff;
+}
+
+.accrodion .item {
+    margin-bottom: 10px;
+}
+
+
+.accrodion .item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background: #8d859b;
+    color: #fff;
+    padding: 0 20px;
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+}
+
+
+.accrodion .item-header .on-hover {
+    position: absolute;
+    width: 10px;
+    height: 100%;
+    background: #6c1dff;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+.accrodion .item-header:hover .on-hover {
+    display: inline-flex;
+}
+
+.accrodion .item-header:hover {
+    background: #776f86;
+}
+
+
+
+
+.accrodion .item-body {
+    padding: 20px;
+    border: 1px solid #8d859c;
+}
+
+.accrodion .on-open {
+    display: none;
+}
+
+.accrodion .item-body {
+    display: none;
+}
+
+.accrodion .item-switch~.item-header {
+    background: #5f0ef5;
+}
+
+.accrodion .item-switch:checked~.item-body {
+    display: block;
+}
+
+.accrodion .item-switch:checked~.item-header .on-close {
+    display: none;
+}
+
+.item-switch {
+    display: none;
+}

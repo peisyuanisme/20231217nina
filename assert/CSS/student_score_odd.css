@@ -1,0 +1,32 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    /* border-collapse: separate; */
+    border-spacing: 0cap;
+}
+
+.table th {
+    border: 1px solid#000;
+    padding: 10px;
+    background-color: #c2bebe;
+}
+
+.table td {
+    border: 1px solid#000;
+    padding: 10px;
+}
+
+/* odd=奇數，even=偶數 */
+
+/* 情境一奇數 */
+/* .table tbody tr:nth-child(odd) {
+    background: rgb(47, 154, 255);
+    color: #fff;
+} */
+
+
+/* 情境一偶數 */
+.table tbody tr:nth-child(even) {
+    background: rgb(47, 154, 255);
+    color: #fff;
+}
