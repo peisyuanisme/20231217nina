@@ -1,0 +1,29 @@
+.slogan {
+    margin: 20px auto;
+}
+
+.demo {
+    margin: 20px 0;
+    border: 2px dashed #8f8f8f;
+    padding: 20px;
+    min-height: 200px;
+}
+
+
+.spring {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: #ffffff;
+    rotate: 133deg;
+    margin: 50px;
+    padding: 50px;
+}
+
+.spring .text {
+    rotate: 47deg;
+}
